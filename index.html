@@ -6,53 +6,132 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </head>
 
-<body style="background-color:beige;"></body>
-<header>
+<body>
+    <header>
+        <nav class="nav">
+            <a class="nav-link" href="#sobre"> Apresentação</a>
+            <a class="nav-link" href="#estudos"> Formação</a>
+            <a class="nav-link" href="#projetos"> Projetos</a>
+            <a class="nav-link" href="#contato"> Contato</a>
+        </nav>
+        </div>
+    </header>
 
-    <nav>
-        <a href="#">Apresentação</a>
-        <a href="#">Formação</a>
-        <a href="#">Experiencia</a>
-        <a href="#">Fale Comigo</a>
-    </nav>
-</header>
+    <div class="container-fluid imgPrin">
+        <div class="row align-self-center imgperfil p-3">
+            <div class="col-12 col-md-6 img-fluid">
+                <img src="img/eladev.JPG" class="img-fluid" id="fotoPer" alt="eladev">
 
-<img src="img/eladev.JPG" width="30%" height="20%" alt="eladev">
+                <div class="row justify-content-center p-3">
+                    <a href="https://www.linkedin.com/in/giselle-cordon%C3%A9-992b8719a/" class="col-3" target="_blank">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a href="https://www.instagram.com/_gisellec/" class="col-3" target="_blank">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="https://github.com/gicordone" class="col-3" target="_blank">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </div>
 
-<section>
-    <h1>Apresentação</h1>
-</section>
+            </div>
+            <div class="col-12 col-md-6 align-items-center">
+                <h1 id="titPer">Giselle Cordoné</h1>
+                <h3 id="h3Per">Back-end Developer</h3>
+                <h2 id="h2Per">Olá</h2>
+                <p class="col align-self-center" id="parPer">
+                    Aqui a Giselle, argentina morando no Brasil. Estou me formando como desenvolvedora web back-end.
+                    Na Argentina me formei como Assitente Social e Acompanhante Terapêutica. Estou fazendo transição de
+                    carreira e me envolvendo a cada dia mais no mundo da tecnologia.
+                </p id="sobre">
+            </div>
+        </div>
+    </div>
 
-<div>
-    <h1>Giselle Cordoné</h1>
-    <h3>Futura Desenvolvedora back-end</h3>
-    <h2>Olá</h2>
-    <p>Aqui irá entrar um breve texto de apresentação. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-        diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
-        et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-        ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-        invidunt ut labore et.</p>
-</div>
 
-<section>
-    <h1>Formação</h1>
-</section>
+    <section id="formação">
+        <div class="container" id="estudos">
+            <h2 class="titulo-conteudo-secundario">Formação</h2>
+            <p class="conteudo-secundario-paragrafo-1">Fasta Imaculada Conceição: Assitente Social</p>
+            <p class="conteudo-secundario-paragrafo-2">Fundação SISTERE: Acompanhante Terapêutico</p>
+        </div>
+    </section>
 
-<section>
-    <h1>Experiencia</h1>
-</section>
+    <section>
+        <div class="container-fluid" id="projetos">
+            <div class="row justify-content-center" id="titRep">
+                <h2 class="col-6 titPro">Repositorios de<img src="img/GitHub.jpg" class="col" id="logGit"
+                        alt="Logo Github"></h2>
+            </div>
 
-<section>
-    <h1>Fale comigo</h1>
-</section>
 
-<footer>
-    <p> Para me contatar...
-        <a href="contact">formulario</a>
-    </p>
-</footer>
+
+            
+
+    <section class="container-fluid contato">
+        <div class="row">
+            <div class="col-12 col-md-6 p-5">
+                <h2 class="titPri" id="contato">Contato</h2>
+                <p id="titToti2">Quer entrar em contato comigo?</p>
+                <p id="titToti2">Preencha o formulário ao lado e entre em contato o mais rápido possível.</p>
+                <p id="titToti2">Você também pode me encontrar nas seguintes redes sociais:</p>
+                <div class="row justify-content-center p-5">
+                    <a href="https://www.linkedin.com/in/giselle-cordon%C3%A9-992b8719a/" class="col-3 p-2"
+                        target="_blank">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a href="https://www.instagram.com/_gisellec/" class="col-3 p-2" target="_blank">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="https://github.com/gicordone" class="col-3 p-2" target="_blank">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="col-12 col-md-6">
+                <form id="form" class="">
+                    <label class="form-label container-fluid labelForm">
+                        NOME:
+                        <input class="form-control" type="text" id="nome" placeholder="Joao Santos" required>
+                    </label>
+                    <label class="form-label container-fluid labelForm">
+                        EMAIL:
+                        <input type="email" id="email" class="form-control email" placeholder="seuemail@domain.com"
+                            required>
+                    </label>
+                    <label class="form-label container-fluid labelForm">
+                        ASSUNTO:
+                        <input class="form-control" type="text" id="assunto" placeholder="Contato">
+                    </label>
+
+                    </label>
+                    <label class="form-label container-fluid labelForm">
+                        MESSAGEM:
+                        <textarea class="form-control" name="" id="textArea" cols="30" rows="10" required
+                            minlength="10"></textarea>
+                    </label>
+                    <div class="row justify-content-center p-2">
+                        <button type="submit" disabled id="butEnviar">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 
 </body>
 
