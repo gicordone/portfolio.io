@@ -91,15 +91,15 @@
 
 
                     <div class="col-12 col-md-6">
-                        <form id="form" class="">
+                        <form name="formulario" id="form" class="" method="get"> 
                             <label class="form-label container-fluid labelForm">
                                 NOME:
-                                <input class="form-control" type="text" id="nome" placeholder="Joao Santos" required>
+                                <input class="form-control" name="" type="text" id="nome" placeholder="Joao Santos">
                             </label>
                             <label class="form-label container-fluid labelForm">
                                 EMAIL:
-                                <input type="email" id="email" class="form-control email"
-                                    placeholder="seuemail@domain.com" required>
+                                <input type="email" id="email" class="form-control email" name=""
+                                    placeholder="seuemail@domain.com">
                             </label>
                             <label class="form-label container-fluid labelForm">
                                 ASSUNTO:
@@ -109,17 +109,18 @@
                             </label>
                             <label class="form-label container-fluid labelForm">
                                 MESSAGEM:
-                                <textarea class="form-control" name="" id="textArea" cols="30" rows="10" required
+                                <textarea class="form-control" name="" id="textArea" cols="30" rows="10"
                                     minlength="10"></textarea>
                             </label>
                             <div class="row justify-content-center p-2">
-                                <button type="submit" disabled id="butEnviar">Enviar</button>
+                                <button type="submit" id="butEnviar">Enviar</button>
                             </div>
                         </form>
                     </div>
                 </div>
             </section>
-            <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+            <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+            <script src="script.js"></script>
 </body>
 
 </html>
