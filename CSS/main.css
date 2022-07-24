@@ -283,6 +283,7 @@ ion-icon {
     padding: 20px;
 }
 
+/* ---------------------------Formação------------- */
 
 #formação {
     font: normal normal 300 35px/45px Segoe UI;
@@ -297,6 +298,14 @@ ion-icon {
     height: auto;
     left: 15px;
     position: relative;
+}
+
+
+/* ------------------------Repositorios-------------- */
+
+#repositorios {
+    min-height: 100px;
+
 }
 
 .titulo-conteudo-secundario {

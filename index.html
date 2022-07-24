@@ -47,7 +47,7 @@
 
 
     <section id="formação">
-        <div class="container-fluid" id="estudos">
+        <div class="container-fluid p-5" id="estudos">
             <h2 class="titulo-conteudo-secundario">Formação</h2>
             <p class="conteudo-secundario-paragrafo-1">Fasta Imaculada Conceição: Assitente Social</p>
             <p class="conteudo-secundario-paragrafo-2">Fundação SISTERE: Acompanhante Terapêutico</p>
@@ -55,72 +55,81 @@
     </section>
 
     <section>
-        <div class="container-fluid" id="projetos">
-            <div class="row justify-content-center" id="titRep">
-                <h2 class="col-6 titPro">Repositorios de<img src="img/GitHub.jpg" class="col" id="logGit"
-                        alt="Logo Github"></h2>
+        <div class="container-fluid text-center" id="projetos">
+            <h2 class="col">Repositorios de <img src="img/GitHub.jpg" class="col" id="logGit" alt="Logo Github">
+            </h2>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid text-center p-5">
+
+            <div class="row align-items-center" id="repositorios">
+                <div class="col">
+                    One of three columns
+                </div>
+                <div class="col">
+                    One of three columns
+                </div>
+                <div class="col">
+                    One of three columns
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container-fluid contato">
+        <div class="row">
+            <div class="col-12 col-md-6 p-5">
+                <h2 class="titPri" id="contato">Contato</h2>
+                <p id="titToti2">Quer entrar em contato comigo?</p>
+                <p id="titToti2">Preencha o formulário ao lado e entre em contato o mais rápido possível.</p>
+                <p id="titToti2">Você também pode me encontrar nas seguintes redes sociais:</p>
+                <div class="row justify-content-center p-5">
+                    <a href="https://www.linkedin.com/in/giselle-cordone/" class="col-3 p-2" target="_blank">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a href="https://www.instagram.com/_gisellec/" class="col-3 p-2" target="_blank">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="https://github.com/gicordone" class="col-3 p-2" target="_blank">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </div>
             </div>
 
+            <div class="col-12 col-md-6">
+                <form name="formulario" id="form" class="" method="get">
+                    <label class="form-label container-fluid labelForm">
+                        NOME:
+                        <input class="form-control" name="" type="text" id="nome" placeholder="Joao Santos">
+                    </label>
+                    <label class="form-label container-fluid labelForm">
+                        EMAIL:
+                        <input type="email" id="email" class="form-control email" name=""
+                            placeholder="seuemail@domain.com">
+                    </label>
+                    <label class="form-label container-fluid labelForm">
+                        ASSUNTO:
+                        <input class="form-control" type="text" id="assunto" placeholder="Contato">
+                    </label>
 
-
-
-
-            <section class="container-fluid contato">
-                <div class="row">
-                    <div class="col-12 col-md-6 p-5">
-                        <h2 class="titPri" id="contato">Contato</h2>
-                        <p id="titToti2">Quer entrar em contato comigo?</p>
-                        <p id="titToti2">Preencha o formulário ao lado e entre em contato o mais rápido possível.</p>
-                        <p id="titToti2">Você também pode me encontrar nas seguintes redes sociais:</p>
-                        <div class="row justify-content-center p-5">
-                            <a href="https://www.linkedin.com/in/giselle-cordone/" class="col-3 p-2"
-                                target="_blank">
-                                <ion-icon name="logo-linkedin"></ion-icon>
-                            </a>
-                            <a href="https://www.instagram.com/_gisellec/" class="col-3 p-2" target="_blank">
-                                <ion-icon name="logo-instagram"></ion-icon>
-                            </a>
-                            <a href="https://github.com/gicordone" class="col-3 p-2" target="_blank">
-                                <ion-icon name="logo-github"></ion-icon>
-                            </a>
-                        </div>
+                    </label>
+                    <label class="form-label container-fluid labelForm">
+                        MESSAGEM:
+                        <textarea class="form-control" name="" id="textArea" cols="30" rows="10"
+                            minlength="10"></textarea>
+                    </label>
+                    <div class="row justify-content-center p-2">
+                        <button type="submit" id="butEnviar">Enviar</button>
                     </div>
-
-
-
-
-
-                    <div class="col-12 col-md-6">
-                        <form name="formulario" id="form" class="" method="get"> 
-                            <label class="form-label container-fluid labelForm">
-                                NOME:
-                                <input class="form-control" name="" type="text" id="nome" placeholder="Joao Santos">
-                            </label>
-                            <label class="form-label container-fluid labelForm">
-                                EMAIL:
-                                <input type="email" id="email" class="form-control email" name=""
-                                    placeholder="seuemail@domain.com">
-                            </label>
-                            <label class="form-label container-fluid labelForm">
-                                ASSUNTO:
-                                <input class="form-control" type="text" id="assunto" placeholder="Contato">
-                            </label>
-
-                            </label>
-                            <label class="form-label container-fluid labelForm">
-                                MESSAGEM:
-                                <textarea class="form-control" name="" id="textArea" cols="30" rows="10"
-                                    minlength="10"></textarea>
-                            </label>
-                            <div class="row justify-content-center p-2">
-                                <button type="submit" id="butEnviar">Enviar</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </section>
-            <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
-            <script src="script.js"></script>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
