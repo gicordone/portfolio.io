@@ -141,7 +141,7 @@ table {
     text-decoration: none;
 }
 
-.nav-link {
+.nav-link:hover {
     margin-right: 1em !important;
     color: white;
 }
@@ -188,7 +188,7 @@ table {
     color: #161616;
 }
 
-.butHead:hover {
+.butHead: {
     color: white;
     border-radius: 5px;
     transition-duration: 0.4s;
@@ -200,7 +200,7 @@ body {
 
 }
 
-.nav {
+.nav:hover {
     background-color: #707070;
 }
 
@@ -273,10 +273,7 @@ ion-icon {
 
 
 #fotoPer {
-    /* margin-left: 100px; */
-    /* margin-right: 50px; */
-    /* height: 450px; */
-    /* width: auto; */
+   
     border-radius: 450px;
     display: flex;
     float: left;
@@ -312,6 +309,14 @@ ion-icon {
     font: normal normal 300 55px/73px Segoe UI;
     text-align: center;
 }
+
+#but:hover {
+    color:#7b7b7b;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+
+}
+
 
 .labelForm {
 
