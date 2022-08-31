@@ -40,7 +40,7 @@
                 .then(data => {
                     console.log(data);
                     repositorios.innerHTML = `<div class="col">
-                <a href="${data[0].clone_url}" target="_blank"><button type="button" class="btn btn-secondary btn-lg">${data[0].name}</button></a>
+                <a href="${data[2].clone_url}" target="_blank"><button type="button" class="btn btn-secondary btn-lg">${data[2].name}</button></a>
             </div><div class="col">
             <a href="${data[3].clone_url}" target="_blank"><button type="button" class="btn btn-secondary btn-lg">${data[3].name}</button></a>
         </div><div class="col">
